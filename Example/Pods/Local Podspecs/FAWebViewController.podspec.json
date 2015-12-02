@@ -1,0 +1,31 @@
+{
+  "name": "FAWebViewController",
+  "version": "0.1.0",
+  "summary": "A short description of FAWebViewController.",
+  "description": "An optional longer description of FAWebViewController\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/FAWebViewController",
+  "license": "MIT",
+  "authors": {
+    "Softshag & Me": "admin@softshag.dk"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/FAWebViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "FAWebViewController": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "NJKWebViewProgress": [
+      "~> 0.2.3"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module FAWebViewController {
+  umbrella header "FAWebViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
